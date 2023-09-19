@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    height: auto;
+    margin-top: 10vh;
+}
+.lgd{
+    border: 1px solid black;
+    padding: 3px 12px;
+    margin-left: 7.5vw;
+}
+.name-entry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+    /* border: 2px solid blue; */
+    width: 250px;
+    
+}
+.stat-date{
+    display: inline-flex;
+    width: 250px;
+    gap: 45px;
+    margin-bottom: 2px;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lang-entry{
+    margin: 2px;
+}
+.lang-entry>p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.lang-entry>input{
+    display: inline-block;
+    margin: 7px;
+
+}
+#html{
+    margin-left: -3px;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-agree{
+    margin: 2px;
+    width: 250px;
+    font-size: 13px;
+    display: inline-flex;
+    line-height: 12px;
+}
+.sign-agree>input{
+    margin-right: 8px;
+}
+.btn-holder{
+    margin: 10px;
+}
+.btn{
+    background-color: aquamarine;
+    border: none;
+    width: 100px;
+    padding: 5px;
+    color: navy;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow: 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; ;
+}

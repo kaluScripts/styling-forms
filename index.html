@@ -5,62 +5,63 @@
     </head>
     <body>
         <form action="/form-handling-url" method="post">
-            <fieldset>
-            <legend>Add user</legend>
+            <fieldset class="container">
+            <legend class="lgd">Add user</legend>
         
-            <div>
+            <div class="name-entry">
                 <label for="firstName">First name</label>
-                <input type="text" id="firstName" name="first_name">
+                <input type="text" id="firstName" name="first_name" size="34">
             </div>
         
-            <div>
+            <div class="name-entry">
                 <label for="lastName">Last name</label>
-                <input type="text" id="lastName" name="last_name">
+                <input type="text" id="lastName" name="last_name" size="34">
             </div>
         
-            <div>
+            <div class="name-entry">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email_address">
+                <input type="email" id="email" name="email_address" size="34">
             </div>
         
-            <div>
+            <div class="stat-date ">
+                <div class="stats">
                 <label for="role">Status</label>
                 <select id="role" name="user_role_name">
                 <option value="student">Student</option>
                 <option value="instructor">Instructor</option>
                 <option value="guest">Guest</option>
                 </select>
+                </div>
+                <div class="stats">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" size="22">
+                </div>
             </div>
             
-            <div>
+            <div class="lang-entry">
                 <p>Choose your favorite Web language:</p>
                 <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
+                <label for="html">HTML</label>
                 <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
+                <label for="css">CSS</label>
                 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
                 <label for="javascript">JavaScript</label>
             </div>
 
-            <div>
+            <div class="comments">
                 <label for="comments">Comments</label>
-                <textarea id="comments" name="comments"></textarea>
+                <textarea id="comments" name="comments" cols="30"></textarea>
             </div>
 
-            <div>
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
-            </div>
-
-            <div>
+            <div class="sign-agree">
                 <input type="checkbox" id="signup" name="signup" value="Signup">
-                <label for="signup">Sign up for news letter</label><br>
+                <label for="signup">Sign up for news letter</label>
                 <input type="checkbox" id="terms" name="terms" value="Terms">
                 <label for="terms"> Agree to terms and conditions</label>
             </div>
         
-            <div>
-                <button type="submit">Submit</button>
+            <div class="btn-holder">
+                <button type="submit" class="btn">Submit</button>
             </div>
         
             </fieldset>
